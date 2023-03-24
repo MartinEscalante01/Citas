@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>
+        Reservar Cita
+    </h1>
+
+    <section>
+        <div>
+            <label for=""> Nombre y apellido
+                <input type="text" value="" placeholder="Ingrese su nombre" id="valorNombre">
+                <span id="error"></span>
+            </label>
+            <label for=""> Numero de telefono
+                <input type="number" value="" placeholder="Ingrese su telefono" id="valorTel">
+            </label>
+            <label for=""> DNI
+                <input type="number" value="" placeholder="Ingrese su dni" id="valorDni">
+            </label>
+            <label for="">Comentario<textarea name="" id="valorDesc" cols="40" rows="10"></textarea></label>
+            
+            <button id="enviar" type="button">Enviar</button>
+        </div>
+    </section>
+    <section>
+        <div class="listaAgenda" id="listaAgenda">
+            <ul id="lista">
+                
+                
+            </ul>
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>
